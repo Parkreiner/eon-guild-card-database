@@ -1,6 +1,8 @@
 # Figuring out the components
 
-## Viewing – Styling
+## Components
+
+### Viewing – Styling
 
 * Individual cards with all core information and images
 * Colored card backs based on border color used in user's top screenshot (?)
@@ -19,7 +21,7 @@
 * Animation for when card(s) get loaded in
 * Animation for opening controls
 
-## Viewing – Logic
+### Viewing – Logic
 
 * Script that pulls a page's worth of cards
 * Automatic pagination
@@ -35,7 +37,7 @@
 * Arrangement of form boxes
 * Submit button
 
-## Uploading – Logic
+### Uploading – Logic
 
 * File inputs
 * Upload button
@@ -45,7 +47,7 @@
 * Button to close input form
 * Button to ask if you want to discard all changes
 
-## Back end
+### Back end
 
 * Place to store all the guild cards
 * Database for keeping track of all the cards and tying information to the guild card images
@@ -57,3 +59,7 @@
 * Stitching the guild card code images into a single image
 * Possibly even modifying the bottom half so that the full card is used
 * Sending card information to the viewing page while responding to specific filters
+
+## Grouping components into steps
+
+TO BE DONE LATER
