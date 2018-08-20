@@ -91,6 +91,43 @@ Don't even draw too much attention to this. Just mention it somewhere on the upl
 
 * Make "Search by region" a separate option that's always set to something, since I'm pretty sure NA and EU cards won't work together
 
+## Technology
+
+### Tech choices
+
+Honestly, I'm of the mind that anything's good, so long as it works.
+
+#### Definitely Need
+
+* HTML
+* JavaScript
+* CSS3
+
+#### Things I know nothing about but should learn
+
+The MERN Stack, basically
+
+* MongoDB
+* Express
+* React
+* Node
+
+#### Maybe
+
+* Vectors for site flourishes
+
+### Tech considerations
+
+* Need to optimize images to speed up load times, especially for web.
+* Need to reduce image size to be as small as possible, to save on bandwidth
+* Can't just throw a bunch of nasty-ass scripts on my site
+* Not all sites support SVG files
+
+### Browser Support
+
+On one hand, I should probably support a good range of browsers. On the other, I'm pretty sure everyone who plays EO is
+going to be tech-savvy enough to keep their browsers up-to-date.
+
 ## Design
 
 * Design the website for mobile first
@@ -101,36 +138,11 @@ Don't even draw too much attention to this. Just mention it somewhere on the upl
 
 ### Interaction and experience
 
-* Dim all cards slightly. When the user hovers over one, return it to its original brightness, push the card up, and increase the spread on the drop shadow
+* Dim all cards slightly. When the user hovers over one, return it to its original brightness, push the card up, and
+    increase the spread on the drop shadow
 * Try to see if I can detect the user's region and set the website region for them as the page loads
 
-## Technology
-
-Honestly, I'm of the mind that anything's good, so long as it works.
-
-### Definitely Need
-
-* HTML
-* JavaScript
-* CSS3
-
-### Things I know nothing about but should learn
-
-The MERN Stack, basically
-
-* MongoDB
-* Express
-* React
-* Node
-
-### Maybe
-
-* Vectors for site flourishes
-
-### Browser Support
-
-On one hand, I should probably support a good range of browsers. On the other, I'm pretty sure everyone who plays EO is
-going to be tech-savvy enough to keep their browsers up-to-date.
+### Designing for mobile
 
 ## Design Obstacles
 
@@ -144,3 +156,40 @@ going to be tech-savvy enough to keep their browsers up-to-date.
   2. Character information
   3. Uploader information
   4. Meta information
+
+## Action hierarchy
+
+### All the possible actions that the user can do
+
+#### View area
+
+* Scroll
+* Click the upload button to bring up the form
+* Click the search button to bring up filters
+* Hover over the search/upload buttons
+* Click/tap a card
+* Hover over a card
+* Click the region toggle button(s)
+* Click the Cool Adventurer fields in a specific order, once the EE filter has been applied and the CA card has been
+    flipped
+
+#### Upload form
+
+* Click the preview card to flip it
+* Click the text forms
+* Type into the clicked text forms
+* Click the drop-down lists
+* Select an item from the drop-down lists
+* Click outside a drop-down list once it's active
+* Click the submit button
+* Click the "close form" button
+
+#### Search form
+
+#### Report/request form
+
+* Fill the upload form
+
+* Scroll through the site
+
+* Click the EE card in a specific way to bring up the upload form for Etrian Exodus

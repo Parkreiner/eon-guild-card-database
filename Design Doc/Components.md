@@ -59,7 +59,3 @@
 * Stitching the guild card code images into a single image
 * Possibly even modifying the bottom half so that the full card is used
 * Sending card information to the viewing page while responding to specific filters
-
-## Grouping components into steps
-
-TO BE DONE LATER

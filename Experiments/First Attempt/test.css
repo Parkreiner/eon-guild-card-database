@@ -1,6 +1,10 @@
+/*===============================
+  Colors - Not rendered in CSS
+===============================*/
 /*==========================
-  Colors
+  External Imports
 ==========================*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 /*==========================
   Basics
 ==========================*/
@@ -15,6 +19,12 @@ body {
   color: #00172e;
   font-family: "open sans", arial, helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+::selection {
+  color: #fff;
+  background-color: #bb99ff;
+  padding: 1em;
 }
 
 /*==========================
@@ -76,20 +86,21 @@ header h2 {
   color: #fff;
   width: 400px;
   height: 480px;
+  background: #0e2944;
   background: linear-gradient(#268267 0, #0a494d 50%, #0e2944 100%);
   padding: 50px 40px;
   border-radius: 10px;
   margin-bottom: 5rem;
   cursor: pointer;
   top: 0;
-  box-shadow: 0 4px 20px 2px rgba(0, 48, 36, 0.5), inset 0 0 300px 300px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 10px 0 rgba(0, 48, 36, 0.4), inset 0 0 300px 300px rgba(0, 0, 0, 0.05);
   transition: 0.5s;
   transition-timing-function: ease;
 }
 
 .card-container:hover {
-  top: -16px;
-  box-shadow: 0 6px 30px 0 rgba(0, 48, 36, 0.4), inset 0 0 300px 300px rgba(0, 0, 0, 0);
+  top: -4px;
+  box-shadow: 0 4px 14px 2px rgba(0, 48, 36, 0.4), inset 0 0 300px 300px rgba(0, 0, 0, 0);
 }
 
 h3,
